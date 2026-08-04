@@ -7,7 +7,14 @@ multi-window screen sharing, built on LiveKit.
 brew install --cask blixel-app/blixel/blixel
 ```
 
-That installs `Blixel.app` and puts the `blixel` command on your PATH. Requires
+That adds this tap and installs in one step. Tapping first is equivalent:
+
+```bash
+brew tap blixel-app/blixel
+brew install --cask blixel
+```
+
+Either way you get `Blixel.app` and the `blixel` command on your PATH. Requires
 Apple silicon and macOS 15 (Sequoia) or later.
 
 To update:
