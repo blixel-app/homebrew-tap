@@ -4,13 +4,13 @@
 multi-window screen sharing, built on LiveKit.
 
 ```bash
-brew install --cask blixel-app/blixel/blixel
+brew install --cask blixel-app/tap/blixel
 ```
 
 That adds this tap and installs in one step. Tapping first is equivalent:
 
 ```bash
-brew tap blixel-app/blixel
+brew tap blixel-app/tap
 brew install --cask blixel
 ```
 
