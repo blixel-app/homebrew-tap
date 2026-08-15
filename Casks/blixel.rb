@@ -1,8 +1,8 @@
 cask "blixel" do
-  version "0.1.0"
-  sha256 "a6f7359f39487d53100c0474e6e002d55f5ab620f0f300be10655f008549806d"
+  version "0.2.0"
+  sha256 "57887d619b5a548ca0ad13f684f4493d28605e5bd43c1799b2c6aab33c324143"
 
-  url "https://github.com/blixel-app/blixel-releases/releases/download/v#{version}/Blixel-#{version}.zip"
+  url "https://github.com/blixel-app/blixel-releases/releases/download/v#{version}/Blixel-#{version}.dmg"
   name "Blixel"
   desc "Multi-window screen sharing for pairing and ensemble sessions"
   homepage "https://github.com/blixel-app/blixel-releases"
