@@ -1,6 +1,6 @@
 cask "blixel" do
-  version "0.7.3"
-  sha256 "1a8e382fc75b3b0953df7b46627aa0ede0d2d9ea31c45eef7e6ebbd3f32d1e6e"
+  version "0.8.0"
+  sha256 "a927a144e87782856340734d0c0a10bde5b57f42ece24e7bd4a7f9561461a447"
 
   url "https://github.com/blixel-app/blixel-releases/releases/download/v#{version}/Blixel-#{version}.dmg"
   name "Blixel"
@@ -23,6 +23,7 @@ cask "blixel" do
   uninstall quit: "app.blixel.Blixel"
 
   zap trash: [
+    "~/.blixel",
     "~/.config/blixel",
     "~/Library/Logs/Blixel",
     "~/Library/Preferences/app.blixel.Blixel.plist",
