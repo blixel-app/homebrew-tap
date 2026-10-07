@@ -1,6 +1,6 @@
 cask "blixel" do
-  version "0.11.0"
-  sha256 "dee1b6d9614ae02f5f330781dfad6fd7f1ec59f0459dc6aafa144075447fb229"
+  version "0.12.0"
+  sha256 "81cb059edd348a0145e623fa29c5362c7eead34a6988571633ce99de95ec3a25"
 
   url "https://github.com/blixel-app/blixel-releases/releases/download/v#{version}/Blixel-#{version}.dmg"
   name "Blixel"
