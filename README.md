@@ -1,7 +1,8 @@
 # Homebrew tap for Blixel
 
-[Blixel](https://github.com/blixel-app/blixel-releases) is a native macOS app for
-multi-window screen sharing, built on LiveKit.
+[Blixel](https://blixel.app) is video chat for Mac. Everyone in a call can share
+multiple windows at once, and anyone can hand a spoken or typed request to the
+coding agents in the room. Native macOS, built on LiveKit.
 
 ```bash
 brew install --cask blixel-app/tap/blixel

@@ -4,8 +4,8 @@ cask "blixel" do
 
   url "https://github.com/blixel-app/blixel-releases/releases/download/v#{version}/Blixel-#{version}.dmg"
   name "Blixel"
-  desc "Multi-window screen sharing for pairing and ensemble sessions"
-  homepage "https://github.com/blixel-app/blixel-releases"
+  desc "Video chat with multi-window screen sharing and coding-agent handoffs"
+  homepage "https://blixel.app"
 
   livecheck do
     url :url
